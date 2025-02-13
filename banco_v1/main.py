@@ -1,4 +1,8 @@
-from banco import limpar_tela, exibir_cabecalho, depositar, exibir_extrato, realizar_saque
+import sys
+sys.path.append('c:/Users/raffa/OneDrive/Desktop/sistema bancário')
+
+from banco_v1.banco import limpar_tela, exibir_cabecalho, depositar, exibir_extrato, realizar_saque
+
 
 def programa_principal():
     conta = 0
